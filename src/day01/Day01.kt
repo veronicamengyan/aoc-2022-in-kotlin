@@ -1,5 +1,8 @@
+package day01
+
 import java.util.Comparator
 import java.util.PriorityQueue
+import readInput
 
 fun main() {
     fun findMaxCalories1(input: List<String>): Long {
@@ -50,13 +53,14 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day01_test")
+    val testInput = readInput("day01/Day01_test")
     println(findMaxCalories1(testInput))
     check(findMaxCalories1(testInput) == 24000L)
 
     println(findMaxCalories2(testInput))
     check(findMaxCalories2(testInput) == 45000L)
 
-    val input = readInput("Day01")
+    val input = readInput("day01/Day01")
+    println(findMaxCalories1(input))
     println(findMaxCalories2(input))
 }
