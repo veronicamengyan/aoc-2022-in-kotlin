@@ -4,6 +4,10 @@ import java.util.Comparator
 import java.util.PriorityQueue
 import readInput
 
+/**
+ * Potential improvement:
+ * * use sorted and takeLast(3) instead of priority queue from java
+ */
 fun main() {
     fun findMaxCalories1(input: List<String>): Long {
         var maxCalories = 0L

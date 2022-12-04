@@ -1,5 +1,10 @@
 package day04
 
+/**
+ * Potential improvement:
+ * * split on both , and -
+ * * use IntRange
+ */
 import readInput
     fun main() {
         fun isContain(input: String): Boolean {

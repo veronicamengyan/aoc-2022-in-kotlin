@@ -2,6 +2,11 @@ package day03
 import readInput
 import splitToListOfList
 
+/**
+ * Potential improvement:
+ * * use chunked instead of splitToListOfList
+ * * use extension class
+ */
 fun main() {
     fun findItemsScore(input: String): Int {
         val firstBag = input.substring(0, input.length/2).toSet()

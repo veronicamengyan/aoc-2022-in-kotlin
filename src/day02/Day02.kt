@@ -2,6 +2,10 @@ package day02
 
 import readInput
 
+/**
+ * Potential improvement
+ * * Use a formula with mod 3
+ */
 fun main() {
 
     fun mapRPCToPoint(input: String): Int {
